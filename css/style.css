@@ -1,0 +1,41 @@
+table#q_and_a {
+  margin: 5px 0 10px;
+  border-collapse: collapse;
+}
+
+td.text {
+  user-select: none;
+  padding: 5px;
+  border: 1px solid blue;
+  font-size: 14px;
+}
+
+td.question {
+  width: 300px;
+  cursor: pointer;
+}
+
+td.answer {
+  width: 150px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#slow {
+  display: inline-block;
+  user-select: none;
+  font-size: 14px;
+}
+
+#text {
+  /*display: none;*/
+  user-select: none;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid blue;
+  /*width: 460px;*/
+  max-width: 460px;
+  font-size: 14px;
+}
